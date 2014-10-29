@@ -18,9 +18,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "cronic"
 
   # If you have other dependencies, add them here
-  s.add_dependency "rufus-scheduler", "~> 2.0.17"
-  s.add_dependency "dante", "~> 0.1.5"
-  s.add_dependency "rails", ">= 3"
+  s.add_dependency "rufus-scheduler", "~> 3"
+  s.add_dependency "dante", "~> 0.2.0"
+  s.add_dependency "rails", ">= 4"
 
   # If you need to check in files that aren't .rb files, add them here
   s.files        = Dir["{lib,recipes}/**/*.rb", "templates/**/*", "LICENSE", "*.md"]

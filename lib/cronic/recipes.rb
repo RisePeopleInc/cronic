@@ -36,7 +36,7 @@ Capistrano::Configuration.instance.load do
     end
 
     def cronic_command
-      fetch(:cronic_command, "script/cronic")
+      fetch(:cronic_command, "bin/cronic")
     end
 
     desc "Stop the cronic process"
